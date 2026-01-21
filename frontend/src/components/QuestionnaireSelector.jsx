@@ -19,7 +19,7 @@ import {
 } from '@mui/icons-material';
 import { saveAs } from 'file-saver';
 
-const API = 'http://localhost:8000';
+const API = 'https://survey-platform-sc3c.onrender.com';
 
 export default function QuestionnaireSelector({ 
     mode = 'view', 

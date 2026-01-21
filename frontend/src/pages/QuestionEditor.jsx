@@ -11,7 +11,7 @@ import ArrowForwardIcon from '@mui/icons-material/ArrowForward'
 import { DndContext, closestCenter } from '@dnd-kit/core'
 import { SortableContext, verticalListSortingStrategy, arrayMove } from '@dnd-kit/sortable'
 
-const API = 'http://localhost:8000'
+const API = 'https://survey-platform-sc3c.onrender.com'
 
 const TYPE_MAP = {
     UI_TO_API: { 'Aberta': 'open', 'Múltipla escolha': 'multiple_choice' },

@@ -13,7 +13,7 @@ import QuestionnaireSelector from "../components/QuestionnaireSelector";
 import PageHeader from "../components/PageHeader";
 import InterviewMapDialog from "../components/InterviewMapDialog"; // Novo Componente
 
-const API = "http://localhost:8000";
+const API = "https://survey-platform-sc3c.onrender.com";
 
 export default function Collection() {
   const [view, setView] = useState('grid');
