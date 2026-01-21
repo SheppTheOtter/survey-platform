@@ -30,8 +30,8 @@ import QuestionnaireSelector from '../components/QuestionnaireSelector';
 import PageHeader from '../components/PageHeader';
 import AnalyticsFilter from '../components/AnalyticsFilter';
 import CrosstabView from '../components/CrosstabView'; 
+import { API } from "../api";
 
-const API = 'https://survey-platform-sc3c.onrender.com';
 const COLORS = ['#0088FE', '#00C49F', '#FFBB28', '#FF8042', '#8884d8', '#82ca9d', '#ff6b6b', '#4ecdc4'];
 
 const QuestionAnalysisCard = ({ question }) => {

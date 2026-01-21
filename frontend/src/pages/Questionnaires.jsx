@@ -9,7 +9,7 @@ import QuestionnaireSelector from '../components/QuestionnaireSelector';
 import QuestionEditor from './QuestionEditor';
 import PageHeader from '../components/PageHeader'; // Novo componente
 
-const API = 'https://survey-platform-sc3c.onrender.com';
+const API = 'https://survey-platform-sc3c.http://localhost:8000';
 
 export default function Questionnaires() {
     const [view, setView] = useState('grid');

@@ -12,8 +12,7 @@ import axios from "axios";
 import QuestionnaireSelector from "../components/QuestionnaireSelector";
 import PageHeader from "../components/PageHeader";
 import InterviewMapDialog from "../components/InterviewMapDialog"; // Novo Componente
-
-const API = "https://survey-platform-sc3c.onrender.com";
+import { API } from "../api";
 
 export default function Collection() {
   const [view, setView] = useState('grid');
